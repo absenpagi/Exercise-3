@@ -16,10 +16,10 @@
         }
     </style>
 </head>
-<body style="background-image: linear-gradient(to right, #845EC2,#D65DB1,#FF6F91)">
+<body style="background-image: linear-gradient(to right, #845EC2,#D65DB1,#FF6F91); background-repeat: no-repeat; background-attachment: fixed;">
     <h1 style="font-family:verdana; font-weight:bold; text-align: center; color:floralwhite">Tugas Array</h1>
     <input type="button" onclick="testjson()" value="Convert ke Tabel" />
-    <p id="showData"></p>
+    <p id="gasmasbro"></p>
 </body>
 
 <script>
@@ -281,7 +281,7 @@
         }
 
         
-        var divContainer = document.getElementById("showData");
+        var divContainer = document.getElementById("gasmasbro");
         divContainer.innerHTML = "";
         divContainer.appendChild(table);
     }
